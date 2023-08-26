@@ -24,7 +24,7 @@ const PhotoProcess = () => {
   ];
 
   return (
-    <div className="photo_process__container">
+    <div className="photo_process__container" id="photoprocess">
       <h1>Процесс фотографирования радужек</h1>
       <div className="photo_process__list">
         {steps.map((step) => (

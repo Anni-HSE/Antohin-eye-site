@@ -24,7 +24,7 @@ const Advantages = () => {
   ];
 
   return (
-    <div className="advantage__container">
+    <div className="advantage__container" id="advantages">
       <h1>Фото радужки глаза в Москве и Спб</h1>
       <div className="advantage__list">
         {advantages.map((adv) => (

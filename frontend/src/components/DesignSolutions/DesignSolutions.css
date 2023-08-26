@@ -1,0 +1,59 @@
+.solution-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Равномерно распределяем место между элементами */
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.image-pagination {
+  flex: 1;
+  padding-right: 10px; /* Меньший отступ для плавного разделения */
+}
+
+.image-pagination img {
+  max-width: 100%;
+  display: block; /* Убираем пустые места под изображением */
+  margin: 0 auto; /* Центрируем изображение внутри блока */
+}
+
+.description {
+  flex: 1;
+  padding-left: 10px; /* Меньший отступ для плавного разделения */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.image-pagination {
+  flex: 1;
+  padding-right: 10px;
+  position: relative; /* Для позиционирования точек */
+}
+
+.image-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #007bff;
+}

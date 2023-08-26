@@ -7,7 +7,7 @@ const Footer = () => {
   const position = [51.505, -0.09]; // Координаты для карты
 
   return (
-    <footer className="footer-container">
+    <footer className="footer-container" id="footer">
       <div className="description">
         <h3>О нашем месте</h3>
         <p>Здесь вы можете найти много интересных вещей...</p>

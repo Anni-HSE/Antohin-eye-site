@@ -38,7 +38,7 @@ const Catalog = () => {
   ];
 
   return (
-    <div>
+    <div id="catalog">
       <h1>ВЫБЕРИТЕ ФОРМАТ С РАДУЖКОЙ</h1>
       {/* TODO: сделать сдесь фильтр*/}
 
