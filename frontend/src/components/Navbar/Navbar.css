@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li a:focus,
+li a:hover,
+li a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__contact {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav__contact a {
+  font-size: 21px;
+}

@@ -1,0 +1,47 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 45%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card .name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card .price {
+  font-size: 1.1em;
+  color: #1a8cff;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card li {
+  margin-bottom: 5px;
+}
+
+.card__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
